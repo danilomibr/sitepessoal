@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body{
+	font-family: sans-serif;
+	font-size: 10pt;
+	color: #4d4d4d;
+}
+
+header{
+	height: 90px;
+	margin-bottom: 10px;
+}
+
+nav#menu{
+	position:relative;
+	display: block;
+	top: -50px;
+	left: 300px
+}
+nav#menu li{
+	display: inline-block;
+	text-transform: uppercase;
+	padding: 10px;
+	margin: 5px;
+}
+
+section#corpo{
+	height: 500px;
+	background-color: aliceblue;
+}
+
+img#foto-principal{
+	border: none;
+	border-radius: 50%;
+	width: 200px;
+}
+div#botao1{
+	display: block; 
+	width:100px; 
+	height: 100px; 
+	border-radius: 50%; 
+	background-color: red; 
+	text-align: center; 
+	vertical-align:middle; 
+	margin:auto; 
+	line-height: 100px;
+}
