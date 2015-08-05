@@ -4,11 +4,13 @@ body{
 	font-family: sans-serif;
 	font-size: 10pt;
 	color: #4d4d4d;
+	background-color: #eae5e5;
 }
 
 header{
 	height: 90px;
-	margin-bottom: 10px;
+	margin: auto;
+	width: 800px;
 }
 
 nav#menu{
@@ -26,14 +28,35 @@ nav#menu li{
 
 section#corpo{
 	height: 500px;
-	background-color: aliceblue;
+	width: 800px;
+	margin: 80px auto 0px auto;
 }
-
 img#foto-principal{
+	display: inline-block;
+	float: left;
 	border: none;
 	border-radius: 50%;
-	width: 200px;
+	width: 300px;
+	margin-right: 50px;
 }
+div#sub-menu{
+	display: block;
+	position:relative;
+	float: left;
+	width: 300px;
+}
+
+footer{
+	height: 100px;
+	background-color: #0574ff;
+
+}
+
+footer section{
+	width: 800px;
+	margin: auto;
+}
+
 div#botao1{
 	display: block; 
 	width:100px; 
