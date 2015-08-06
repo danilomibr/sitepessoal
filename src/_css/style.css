@@ -43,8 +43,39 @@ div#sub-menu{
 	display: block;
 	position:relative;
 	float: left;
-	width: 300px;
+	width: 450px;
 }
+nav#sub-menu{
+	position:relative;
+	display: block;
+}
+
+nav#sub-menu li {
+	display: inline-block;
+	text-transform: uppercase;
+	padding: 10px;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	vertical-align: middle;
+	margin: 0 40px 0px -30px;
+}
+
+li#botao1{
+	background-color: #e73556;
+}
+
+li#botao2{
+	background-color: #61cfd3;
+}
+
+li#botao3{
+	background-color: #d1c926;
+}
+
+
 
 footer{
 	height: 100px;
@@ -52,19 +83,7 @@ footer{
 
 }
 
-footer section{
+footer section {
 	width: 800px;
 	margin: auto;
-}
-
-div#botao1{
-	display: block; 
-	width:100px; 
-	height: 100px; 
-	border-radius: 50%; 
-	background-color: red; 
-	text-align: center; 
-	vertical-align:middle; 
-	margin:auto; 
-	line-height: 100px;
 }
