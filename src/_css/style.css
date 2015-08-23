@@ -8,6 +8,14 @@ body{
 	background-color: #eae5e5;
 }
 
+body a{
+	color:#4d4d4d;
+	text-decoration: none; 
+}
+body a:hover{
+	text-decoration: underline;
+}
+
 header{
 	font-family: 'Noticia Text', serif;
 	height: 90px;
@@ -18,7 +26,7 @@ header h1{
 	font-family: 'Noticia Text', serif;
 	font-weight: bold;
 	font-size: 30pt;
-	margin: 0px;
+	margin: 0px auto 0px auto;
 	padding: 0px;
 }
 header h2{
@@ -28,11 +36,15 @@ header h2{
 	padding: 0px;
 }
 
+header hgroup{
+	margin-left: 50px;	
+}
+
 nav#menu{
 	position:relative;
 	display: block;
 	top: -50px;
-	left: 300px
+	left: 400px;
 }
 nav#menu li{
 	display: inline-block;
@@ -46,7 +58,7 @@ nav#menu li{
 section#corpo{
 	height: 500px;
 	width: 960px;
-	margin: 80px auto 0px auto;
+	margin: 80px auto;
 }
 section#corpo h1{
 	font-family: 'Noticia Text', serif;
@@ -64,7 +76,6 @@ section#corpo h2{
 }
 #div-foto-corpo{
 	display: inline-block;
-	text-align: right;
 	vertical-align: top;	
 	width: 45%;
 	padding: 10px;
