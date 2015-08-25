@@ -1,28 +1,48 @@
 @charset "UTF-8";
 @import url(http://fonts.googleapis.com/css?family=Noticia+Text:400,700);
 
-section#corpo h2{	
+h1{
+	font-size: 45pt;
+}
+article{
+	display: block;
+	width: 70%;
+	border-bottom: 1px solid lightslategray;	
+}
+
+section{
+	width: 960px;
+	margin: 80px auto;
+}
+
+article {
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+}
+div.titulo{
+	margin: 20px;	
+	display: inline-block;
 	font-size: 12pt;
-	float: left;
 	text-transform: uppercase;
 	padding: 10px;
 	border-radius: 50%;
 	width: 110px;
 	height: 110px;
-	line-height: 110px;
-	text-align: center;
-	vertical-align: middle;
-	margin: 0px;
 	background-color: #e73556;
+	vertical-align: top;
+	color: white;
 }
 
-div.titulo{
-	display: inline-block;	
-	width: 20%;
-	background-color: green;
+div.titulo p.duas-linhas{
+	margin-top: 30px;
 }
-div.artigo{
+
+div.titulo p.uma-linha{
+	margin-top: 45px;
+}
+div.artigo{	
 	display: inline-block;
 	width: 70%;
-	background-color: red;
+	margin: 0px;
+	padding: 0px;
 }
