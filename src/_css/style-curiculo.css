@@ -4,21 +4,48 @@
 h1{
 	font-size: 45pt;
 }
-article{
-	display: block;
-	width: 70%;
-	border-bottom: 1px solid lightslategray;	
+h2{
+	margin: 15 0 0 0;
+	padding: 0;
 }
 
-section{
+h3{
+	margin: 0;
+	padding: 0;
+	font-weight: normal;	
+}
+
+h4{
+	margin: 0;
+	padding: 0;	
+	font-weight: normal;
+}
+
+div#conteudo{
 	width: 960px;
 	margin: 80px auto;
+		background-color: green;
+}
+section{
+	width: 750px;
+	background-color: blue;
+}
+aside{
+	width: 5%;
+	float: right;
+	vertical-align: top;
+	background-color: red;
 }
 
 article {
-	margin-bottom: 30px;
-	padding-bottom: 30px;
+	margin: 0 0 30px 0;
+	padding: 0 0 30px 0;
+	display: block;
+	border-bottom: 1px solid lightslategray;	
+	width: 750px;
+	background-color: yellow;
 }
+
 div.titulo{
 	margin: 20px;	
 	display: inline-block;
@@ -45,4 +72,5 @@ div.artigo{
 	width: 70%;
 	margin: 0px;
 	padding: 0px;
+	background-color: gray;
 }
