@@ -24,17 +24,16 @@ h4{
 div#conteudo{
 	width: 960px;
 	margin: 80px auto;
-		background-color: green;
 }
 section{
 	width: 750px;
-	background-color: blue;
+	display: inline-block;
 }
 aside{
-	width: 5%;
+	width: 200px;
+	margin-top: 200px;
 	float: right;
 	vertical-align: top;
-	background-color: red;
 }
 
 article {
@@ -43,7 +42,6 @@ article {
 	display: block;
 	border-bottom: 1px solid lightslategray;	
 	width: 750px;
-	background-color: yellow;
 }
 
 div.titulo{
@@ -72,5 +70,4 @@ div.artigo{
 	width: 70%;
 	margin: 0px;
 	padding: 0px;
-	background-color: gray;
 }
